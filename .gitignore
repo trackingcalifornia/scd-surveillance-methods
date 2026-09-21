@@ -1,0 +1,27 @@
+# SAS datasets are not published from this repository. The code lists and the
+# data dictionary are the record of what was used; see docs/code-lists.md and
+# docs/data-dictionary.md.
+*.sas7bdat
+
+# The generators that build docs/ from the source workbooks are internal. They
+# stay on disk so a rebuild still works, but they are not published: they
+# describe the internal workbooks and how their contents are corrected on the
+# way out, which is program detail rather than part of the public record.
+tools/
+
+# The source workbooks the build reads are internal and are not published. Keep
+# them in docs/ so tools/build-all.ps1 runs, but never commit them:
+# Medical_names_and_codes.xlsx carries an opioid NDC list that is deliberately
+# excluded from code-lists.csv, and committing the workbook would republish it.
+docs/Data Dictionary.xlsx
+docs/Medical_names_and_codes.xlsx
+docs/Disease modifying medications NDCs.xlsx
+
+# Excel lock files, created while a workbook is open
+~$*
+
+# Editor and session leftovers
+.Rhistory
+.Rapp.history
+.DS_Store
+Thumbs.db

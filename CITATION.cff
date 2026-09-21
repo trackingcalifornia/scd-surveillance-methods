@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "Sickle Cell Disease in California: 2026 Surveillance Report — Methods"
+message: >-
+  This repository documents how the metrics in "Sickle Cell Disease in
+  California: 2026 Surveillance Report" are defined and calculated. If you are
+  citing findings rather than methods, cite the report itself.
+type: dataset
+authors:
+  - name: California Sickle Cell Data Collection (CA-SCDC), Tracking California
+abstract: >-
+  Definitions, data dictionary and diagnosis, procedure and medication code
+  lists underlying "Sickle Cell Disease in California: 2026 Surveillance
+  Report". Covers the linked data sources, the case definition and surveillance
+  cohort, the population and coverage definitions applied across metrics, and a
+  catalogue mapping each published table and figure to the variables behind it.
+keywords:
+  - sickle cell disease
+  - public health surveillance
+  - California
+  - data dictionary
+  - methods
+license: CC-BY-4.0

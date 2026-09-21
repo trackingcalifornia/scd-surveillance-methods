@@ -1,0 +1,20 @@
+# GitHub Pages configuration.
+#
+# Set Pages to build from the repository ROOT (Settings > Pages > Source:
+# Deploy from a branch, main, / (root)). That makes README.md the landing page
+# and serves the documentation at /docs/<name>.html, so the relative links
+# already written into README.md resolve without being rewritten. Pointing
+# Pages at /docs instead would drop the README from the site entirely.
+
+title: "Sickle Cell Disease in California: 2026 Surveillance Report — Methods"
+description: >-
+  How the metrics in "Sickle Cell Disease in California: 2026 Surveillance
+  Report" are defined and calculated.
+
+theme: jekyll-theme-cayman
+
+exclude:
+  - .gitignore
+
+# The CSVs and the workbook are copied through as static files, so the download
+# links in README.md keep working on the site as well as in the repository view.
